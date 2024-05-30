@@ -1,5 +1,5 @@
 var request = require('request')
-let key='b3aaa0b3323c0baab93aff38f75b44cb';
+let key='API_KEY';
 module.exports=function(location,callback){
    
 let api=`http://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${key}`;
